@@ -2,7 +2,6 @@
 A C++ Class for the STM32F4xx series of MCUs to work with LCDs using the Hitachi HD44780 controller, the code has been tested and developed using the STM32F4-Discovery board.
 
 ## Usage
-
 ### Constructor
 The constructor can take a list of 6 (for 4 bit operation) or 10 GPIO pins (for 8 bit operation).
 ```C++
@@ -95,3 +94,6 @@ hd44780->printString("Testing\0");
 // Print a character
 hd44780->printChar('1');
 ```
+
+## Prerequisites
+* STM32F4xx Standard Peripheral Library (SPL)
